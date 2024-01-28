@@ -1,0 +1,32 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore the virtual environment
+venv/
+
+# Ignore environment configuration files
+.env
+.env.*
+
+# Ignore logs and databases
+*.log
+
+# Ignore local development files
+.vscode/
+.idea/
+
+# Ignore application-specific files or directories
+webapp.egg-info/
+
+# Ignore system and temporary files
+*.DS_Store
+Thumbs.db
+*.swp
+
+# Ignore Python package metadata
+*.egg-info/
+dist/
+build/
