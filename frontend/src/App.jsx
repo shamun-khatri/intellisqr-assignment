@@ -3,7 +3,6 @@ import "./App.css";
 import { Navbar } from "./components/Navbar/Navbar";
 import { UsersTable } from "./components/UserTable/UserTable";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import PageNotFound from "./components/PageNotFound/PageNotFound";
 import EmployeeState from "./context/employeeState";
 import AddEmployee from "./components/addEmployee/AddEmployee";
 
@@ -18,7 +17,6 @@ function App() {
               <Routes>
                 <Route path="/" Component={UsersTable} />
                 <Route path="/add-employee" Component={AddEmployee} />
-                <Route path="*" element={<PageNotFound />} />
               </Routes>
             </div>
           </div>
