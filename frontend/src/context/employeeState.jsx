@@ -3,7 +3,7 @@ import EmployeeContext from "./employeeContext";
 import axios from "axios";
 
 const EmployeeState = (props) => {
-  const host = "http://127.0.0.1:5000/api/v1";
+  const host = "https://intellisqr-assignment-backend.vercel.app/api/v1";
   const initialEmployees = [];
   const [employees, setEmployees] = useState(initialEmployees);
 
