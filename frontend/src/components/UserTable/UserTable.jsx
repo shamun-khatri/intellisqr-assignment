@@ -74,7 +74,7 @@ export function UsersTable() {
     console.log(filteredEmployees);
   };
 
-  let mainData = filteredEmployees !== null ? filteredEmployees : employees;
+  let mainData = filteredEmployees !== null ? filteredEmployees : currentEmployees;
 
   const rows = mainData.map((employee) => (
     <Table.Tr key={employee ? employee.id : undefined}>
