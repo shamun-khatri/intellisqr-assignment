@@ -26,7 +26,7 @@ export function UsersTable() {
   const employeesPerPage = 10;
   const lastIndex = currentPage * employeesPerPage;
   const firstIndex = lastIndex - employeesPerPage;
-  const currentEmployees = employees.slice(firstIndex, lastIndex - 1);
+  const currentEmployees = employees.slice(firstIndex, lastIndex);
   const npages = Math.ceil(employees.length / employeesPerPage);
 
 
